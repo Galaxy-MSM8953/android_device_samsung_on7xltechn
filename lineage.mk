@@ -7,7 +7,7 @@ $(call inherit-product, device/samsung/on7xltechn/device.mk)
 PRODUCT_DEVICE := on7xltechn
 PRODUCT_NAME := lineage_on7xltechn
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-J727P
+PRODUCT_MODEL := SM-G6100
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
