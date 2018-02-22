@@ -12,3 +12,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=on7xltezc \
+    BUILD_FINGERPRINT=samsung/on7xltezc/on7xltechn:7.0/NRD90M/G6100ZCU1BRA2:user/release-keys \
+    PRIVATE_BUILD_DESC="on7xltezc-user 7.0 NRD90M G6100ZCU1BRA2 release-keys"
